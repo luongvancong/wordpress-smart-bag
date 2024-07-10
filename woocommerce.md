@@ -27,4 +27,9 @@ $product->set_stock_quantity(0);
 $product->set_stock_status('outofstock');
 $product->save();
 ```
+## Các class hay sử dụng
 
+```php
+$product = new WC_Product($product | $productId);
+$productVariantion = new WC_Product_Variation($product | $productId);
+```
