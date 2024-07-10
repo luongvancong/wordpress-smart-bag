@@ -25,5 +25,6 @@ get_manage_stock() === true;
 $product->set_manage_stock(true); 
 $product->set_stock_quantity(0); 
 $product->set_stock_status('outofstock');
+$product->save();
 ```
 
